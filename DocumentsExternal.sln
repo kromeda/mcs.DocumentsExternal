@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentsExternal", "DocumentsExternal.csproj", "{7C1C3B1D-D66B-4704-B4B2-C68B4DF7DC44}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "..\Avalanche\Models\Models.csproj", "{B1F658E7-A544-4EE3-AD33-4DCC30716622}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7C1C3B1D-D66B-4704-B4B2-C68B4DF7DC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C1C3B1D-D66B-4704-B4B2-C68B4DF7DC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C1C3B1D-D66B-4704-B4B2-C68B4DF7DC44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1F658E7-A544-4EE3-AD33-4DCC30716622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F658E7-A544-4EE3-AD33-4DCC30716622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F658E7-A544-4EE3-AD33-4DCC30716622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F658E7-A544-4EE3-AD33-4DCC30716622}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
