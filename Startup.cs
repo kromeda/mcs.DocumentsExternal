@@ -34,12 +34,8 @@ namespace DocumentsExternal
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
             app.UseMiddleware<ExceptionHandlerMiddleware>();
-
             app.UseRouting();
-
-            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

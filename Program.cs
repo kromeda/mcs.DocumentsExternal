@@ -14,7 +14,12 @@ namespace DocumentsExternal
         {
             try
             {
+                var environment = (string)Environment.GetEnvironmentVariables(
+                    EnvironmentVariableTarget.Machine)["ASPNETCORE_ENVIRONMENT"] ?? "Development";
+
                 var configuration = new ConfigurationBuilder()
+                    .AddJsonFile("appsettings.json")
+                    .AddJsonFile($"appsettings.{environment}.json")
                     .AddUserSecrets<DocumentsConfiguration>()
                     .Build();
 
